@@ -8,7 +8,7 @@ function App() {
     <Layout>
       <Layout.Header className="header">
         <img src={logo} alt="logo" />
-        Artist Search
+        <span>Artist Search</span>
       </Layout.Header>
       <Layout.Content>
         <MyComponent />
