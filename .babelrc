@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    ["import", {
+      "libraryName": "antd",
+      "style": true
+    }, "import-antd"],
+    ["import", {
+      "libraryName": "lodash",
+      "libraryDirectory": "",
+      "camel2DashComponentName": false
+    }, "import-lodash"]
+  ],
+  "presets": [
+    "react-app"
+  ]
+}

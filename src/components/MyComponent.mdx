@@ -1,0 +1,19 @@
+---
+name: My Component
+route: /component
+---
+import '../main.less';
+import { Playground, Props } from 'docz';
+import { Button, Space, Row, Col } from 'antd';
+import MdxIndex from '../mdxIndex.js';
+import MyComponent from './MyComponent.js';
+
+<Playground>
+  <MdxIndex>
+    <MyComponent>Hello</MyComponent>
+  </MdxIndex>
+</Playground>
+
+
+# API
+<Props of={MyComponent} />
